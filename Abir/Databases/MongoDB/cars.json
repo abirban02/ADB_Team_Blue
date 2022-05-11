@@ -8,7 +8,7 @@
   "year": 2011,
   "color": "Violet",
   "status": 1,
-  "photo": "http://dummyimage.com/160x160.png/dddddd/000000",
+  "photo": "/images/Dodge.webp",
   "price": 12,
   "licence_plate": "WAUAF68E35A100310"
 },{
@@ -21,7 +21,7 @@
   "year": 2003,
   "color": "Red",
   "status": 1,
-  "photo": "http://dummyimage.com/163x159.png/5fa2dd/ffffff",
+  "photo": "/images/Chevrolet.jpg",
   "price": 92,
   "licence_plate": "2T1BPRHE4FC032456"
 },{
@@ -34,7 +34,7 @@
   "year": 1999,
   "color": "Aquamarine",
   "status": 1,
-  "photo": "http://dummyimage.com/188x145.png/5fa2dd/ffffff",
+  "photo": "/images/merc_mauv.jpeg",
   "price": 63,
   "licence_plate": "WBAGN63412D851167"
 },{
@@ -47,7 +47,7 @@
   "year": 2004,
   "color": "Fuscia",
   "status": 1,
-  "photo": "http://dummyimage.com/244x204.png/cc0000/ffffff",
+  "photo": "/images/Dodge.webp",
   "price": 76,
   "licence_plate": "WBAPH57519N371610"
 },{
@@ -73,7 +73,7 @@
   "year": 2008,
   "color": "Khaki",
   "status": 1,
-  "photo": "http://dummyimage.com/178x221.png/cc0000/ffffff",
+  "photo": "/images/Volkswagen.jfif",
   "price": 63,
   "licence_plate": "WBA3G7C57EK719862"
 },{
@@ -86,7 +86,7 @@
   "year": 2008,
   "color": "Puce",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Chevrolet.jpg",
   "price": 91,
   "licence_plate": "5UXFG8C50AL517261"
 },{
@@ -125,7 +125,7 @@
   "year": 1987,
   "color": "Mauv",
   "status": 1,
-  "photo": null,
+  "photo": "/images/merc_mauv.jpeg",
   "price": 70,
   "licence_plate": "JM1NC2NFXE0384558"
 },{
@@ -138,7 +138,7 @@
   "year": 2006,
   "color": "Indigo",
   "status": 1,
-  "photo": "http://dummyimage.com/183x210.png/dddddd/000000",
+  "photo": "/images/mazda.jpg",
   "price": 30,
   "licence_plate": "JTJBARBZ7F2809866"
 },{
@@ -151,7 +151,7 @@
   "year": 1994,
   "color": "Turquoise",
   "status": 1,
-  "photo": "http://dummyimage.com/124x107.png/dddddd/000000",
+  "photo": "/images/Ford.jpg",
   "price": 27,
   "licence_plate": "5UXFG835X9L842639"
 },{
@@ -216,7 +216,7 @@
   "year": 1996,
   "color": "Fuscia",
   "status": 1,
-  "photo": "http://dummyimage.com/116x205.png/5fa2dd/ffffff",
+  "photo": "/images/Dodge.webp",
   "price": 42,
   "licence_plate": "4F2CY0C75AK956546"
 },{
@@ -229,7 +229,7 @@
   "year": 1985,
   "color": "Khaki",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Ford.jpg",
   "price": 27,
   "licence_plate": "2HNYD18441H989237"
 },{
@@ -242,7 +242,7 @@
   "year": 1993,
   "color": "Blue",
   "status": 1,
-  "photo": "http://dummyimage.com/238x101.png/ff4444/ffffff",
+  "photo": "/images/merc_mauv.jpeg",
   "price": 87,
   "licence_plate": "1FTEX1CW2AK912851"
 },{
@@ -268,7 +268,7 @@
   "year": 2000,
   "color": "Teal",
   "status": 1,
-  "photo": "http://dummyimage.com/102x203.png/cc0000/ffffff",
+  "photo": "/images/Chevrolet.jpg",
   "price": 57,
   "licence_plate": "WBSWL93519P696877"
 },{
@@ -281,7 +281,7 @@
   "year": 2002,
   "color": "Indigo",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Chevrolet.jpg",
   "price": 25,
   "licence_plate": "3VW217AU0FM081407"
 },{
@@ -307,7 +307,7 @@
   "year": 1963,
   "color": "Fuscia",
   "status": 1,
-  "photo": "http://dummyimage.com/193x113.png/dddddd/000000",
+  "photo": "/images/Ford.jpg",
   "price": 51,
   "licence_plate": "WAUCFAFH9BN318345"
 },{
@@ -333,7 +333,7 @@
   "year": 1989,
   "color": "Fuscia",
   "status": 1,
-  "photo": "http://dummyimage.com/176x165.png/5fa2dd/ffffff",
+  "photo": "/images/Ford.jpg",
   "price": 77,
   "licence_plate": "WVWED7AJ2DW385347"
 },{
@@ -424,7 +424,7 @@
   "year": 2000,
   "color": "Goldenrod",
   "status": 1,
-  "photo": "http://dummyimage.com/179x175.png/ff4444/ffffff",
+  "photo": "/images/Dodge.webp",
   "price": 96,
   "licence_plate": "WAUKH78E18A348693"
 },{
@@ -463,7 +463,7 @@
   "year": 2002,
   "color": "Mauv",
   "status": 1,
-  "photo": "http://dummyimage.com/127x155.png/ff4444/ffffff",
+  "photo": "/images/mazda.jpg",
   "price": 78,
   "licence_plate": "1G6AB5SX7D0471674"
 },{
@@ -515,7 +515,7 @@
   "year": 1996,
   "color": "Yellow",
   "status": 1,
-  "photo": "http://dummyimage.com/133x129.png/5fa2dd/ffffff",
+  "photo": "/images/Chevrolet.jpg",
   "price": 46,
   "licence_plate": "YV4952CF2B1884439"
 },{
@@ -554,7 +554,7 @@
   "year": 2011,
   "color": "Violet",
   "status": 1,
-  "photo": "http://dummyimage.com/224x157.png/ff4444/ffffff",
+  "photo": "/images/Hyundai.jpg",
   "price": 14,
   "licence_plate": "2C3CDYBT8CH722523"
 },{
@@ -580,7 +580,7 @@
   "year": 2011,
   "color": "Maroon",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Lincoln.png",
   "price": 34,
   "licence_plate": "2GKALMEK4D6500130"
 },{
@@ -593,7 +593,7 @@
   "year": 2008,
   "color": "Blue",
   "status": 1,
-  "photo": "http://dummyimage.com/202x227.png/cc0000/ffffff",
+  "photo": "/images/mazda.jpg",
   "price": 59,
   "licence_plate": "SALAG2D45BA603170"
 },{
@@ -619,7 +619,7 @@
   "year": 2007,
   "color": "Orange",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Hyundai.jpg",
   "price": 63,
   "licence_plate": "SCFBF03BX7G592854"
 },{
@@ -645,7 +645,7 @@
   "year": 1991,
   "color": "Goldenrod",
   "status": 1,
-  "photo": "http://dummyimage.com/197x198.png/cc0000/ffffff",
+  "photo": "/images/Volkswagen.jfif",
   "price": 56,
   "licence_plate": "WAUPL58E45A914706"
 },{
@@ -658,7 +658,7 @@
   "year": 1998,
   "color": "Purple",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Toyota.jpg",
   "price": 33,
   "licence_plate": "1G4HP54KX54477201"
 },{
@@ -684,7 +684,7 @@
   "year": 1968,
   "color": "Aquamarine",
   "status": 1,
-  "photo": "http://dummyimage.com/208x136.png/5fa2dd/ffffff",
+  "photo": "/images/Chevrolet.jpg",
   "price": 33,
   "licence_plate": "4A4AP3AU8EE835608"
 },{
@@ -697,7 +697,7 @@
   "year": 1976,
   "color": "Crimson",
   "status": 1,
-  "photo": "http://dummyimage.com/103x221.png/5fa2dd/ffffff",
+  "photo": "/images/Chevrolet.jpg",
   "price": 14,
   "licence_plate": "4USBU33598L797634"
 },{
@@ -723,7 +723,7 @@
   "year": 1999,
   "color": "Aquamarine",
   "status": 1,
-  "photo": "http://dummyimage.com/171x121.png/5fa2dd/ffffff",
+  "photo": "/images/mazda.jpg",
   "price": 80,
   "licence_plate": "3N6CM0KNXDK586812"
 },{
@@ -736,7 +736,7 @@
   "year": 2002,
   "color": "Mauv",
   "status": 1,
-  "photo": "http://dummyimage.com/137x192.png/5fa2dd/ffffff",
+  "photo": "/images/jeep.jfif",
   "price": 10,
   "licence_plate": "1C4AJWAG6DL465449"
 },{
@@ -814,7 +814,7 @@
   "year": 1998,
   "color": "Aquamarine",
   "status": 1,
-  "photo": "http://dummyimage.com/102x100.png/ff4444/ffffff",
+  "photo": "/images/Chevrolet.jpg",
   "price": 48,
   "licence_plate": "WAUVT68E44A649278"
 },{
@@ -840,7 +840,7 @@
   "year": 1991,
   "color": "Puce",
   "status": 1,
-  "photo": "http://dummyimage.com/201x168.png/5fa2dd/ffffff",
+  "photo": "/images/Toyota.jpg",
   "price": 81,
   "licence_plate": "SALAB2D41BA671982"
 },{
@@ -853,7 +853,7 @@
   "year": 1978,
   "color": "Green",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Chevrolet.jpg",
   "price": 2,
   "licence_plate": "3D4PG3FG4BT180091"
 },{
@@ -918,7 +918,7 @@
   "year": 1992,
   "color": "Purple",
   "status": 1,
-  "photo": "http://dummyimage.com/114x125.png/cc0000/ffffff",
+  "photo": "/images/mazda.jpg",
   "price": 51,
   "licence_plate": "1GD21ZCG3CZ498841"
 },{
@@ -931,7 +931,7 @@
   "year": 1999,
   "color": "Purple",
   "status": 1,
-  "photo": "http://dummyimage.com/210x197.png/dddddd/000000",
+  "photo": "/images/merc_mauv.jpeg",
   "price": 69,
   "licence_plate": "3D73M4CLXBG239896"
 },{
@@ -944,7 +944,7 @@
   "year": 1992,
   "color": "Maroon",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Ford.jpg",
   "price": 63,
   "licence_plate": "KNADH5A30B6461051"
 },{
@@ -957,7 +957,7 @@
   "year": 1996,
   "color": "Aquamarine",
   "status": 1,
-  "photo": "http://dummyimage.com/175x236.png/5fa2dd/ffffff",
+  "photo": "/images/Toyota.jpg",
   "price": 48,
   "licence_plate": "3N1CE2CP0EL959463"
 },{
@@ -1009,7 +1009,7 @@
   "year": 2008,
   "color": "Blue",
   "status": 1,
-  "photo": "http://dummyimage.com/128x149.png/dddddd/000000",
+  "photo": "/images/LandRover.webp",
   "price": 67,
   "licence_plate": "WBAGN63534D104200"
 },{
@@ -1035,7 +1035,7 @@
   "year": 1999,
   "color": "Green",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Chevrolet.jpg",
   "price": 20,
   "licence_plate": "4A31K3DT5AE726863"
 },{
@@ -1048,7 +1048,7 @@
   "year": 2001,
   "color": "Maroon",
   "status": 1,
-  "photo": "http://dummyimage.com/128x166.png/ff4444/ffffff",
+  "photo": "/images/Chevrolet.jpg",
   "price": 12,
   "licence_plate": "1HGCR2E34EA431560"
 },{
@@ -1087,7 +1087,7 @@
   "year": 2009,
   "color": "Mauv",
   "status": 1,
-  "photo": "http://dummyimage.com/163x227.png/ff4444/ffffff",
+  "photo": "/images/Toyota.jpg",
   "price": 76,
   "licence_plate": "JH4KB2F62CC748664"
 },{
@@ -1139,7 +1139,7 @@
   "year": 2007,
   "color": "Yellow",
   "status": 1,
-  "photo": "http://dummyimage.com/179x145.png/dddddd/000000",
+  "photo": "/images/LandRover.webp",
   "price": 7,
   "licence_plate": "WBADX1C51DJ849304"
 },{
@@ -1152,7 +1152,7 @@
   "year": 2010,
   "color": "Red",
   "status": 1,
-  "photo": "http://dummyimage.com/220x183.png/5fa2dd/ffffff",
+  "photo": "/images/Ford.jpg",
   "price": 64,
   "licence_plate": "WAURFAFR4CA802189"
 },{
@@ -1165,7 +1165,7 @@
   "year": 1994,
   "color": "Khaki",
   "status": 1,
-  "photo": "http://dummyimage.com/240x248.png/cc0000/ffffff",
+  "photo": "/images/mazda.jpg",
   "price": 5,
   "licence_plate": "1D7CE2GK3AS306347"
 },{
@@ -1191,7 +1191,7 @@
   "year": 2011,
   "color": "Puce",
   "status": 1,
-  "photo": null,
+  "photo": "/images/Ford.jpg",
   "price": 85,
   "licence_plate": "3C3CFFERXCT126934"
 },{
@@ -1217,7 +1217,7 @@
   "year": 1994,
   "color": "Yellow",
   "status": 1,
-  "photo": "http://dummyimage.com/221x197.png/5fa2dd/ffffff",
+  "photo": "/images/Ford.jpg",
   "price": 13,
   "licence_plate": "JTMHY7AJ4F4302744"
 },{
@@ -1230,7 +1230,7 @@
   "year": 2012,
   "color": "Khaki",
   "status": 1,
-  "photo": "http://dummyimage.com/100x117.png/5fa2dd/ffffff",
+  "photo": "/images/Volkswagen.jfif",
   "price": 23,
   "licence_plate": "WBAKF3C59CE821246"
 },{
@@ -1282,7 +1282,7 @@
   "year": 2003,
   "color": "Violet",
   "status": 1,
-  "photo": "http://dummyimage.com/140x129.png/cc0000/ffffff",
+  "photo": "/images/Dodge.webp",
   "price": 99,
   "licence_plate": "JHMZF1C67CS313775"
 },{
@@ -1295,7 +1295,7 @@
   "year": 1992,
   "color": "Fuscia",
   "status": 1,
-  "photo": "http://dummyimage.com/133x241.png/ff4444/ffffff",
+  "photo": "/images/Dodge.webp",
   "price": 72,
   "licence_plate": "1GD02ZCG0EF769654"
 }]
