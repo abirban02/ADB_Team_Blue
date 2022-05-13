@@ -1,0 +1,48 @@
+
+
+    <head>
+        <title>Car Rental Service</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body>
+    <h3 style="margin-left:45%; font-size: 30px; color: darkcyan;">Car Rental Service</h3>
+    <div style="background-color:darkcyan">
+        <a href="http://localhost:3000/queries/list" style="font-size: 20px; color: black; margin-left: 5%;" >Customer Queries</a>
+        <a href="http://localhost:3000/carDetails" style="font-size: 20px; color: black; margin-left: 5%;">Car Price Evaluation</a>
+        <a href="http://localhost:3000/queries" style="font-size: 20px; color: black; margin-left: 5%;">Send Query</a>
+    </div>  
+<form action="/queries" method="POST" autocomplete="off"  style="margin-top: 25px; padding:20px; padding-left: 430px; padding-right: 430px;">
+<input type="hidden" name="id">
+<h3 style=" font-size: 20px; color: black;">Enter Your Query</h3>
+    <div class="form-group">
+        <label>First Name</label>
+        <input type="text" class="form-control" name="first_name" placeholder="first_name">
+    </div>
+
+    <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" class="form-control" name="last_name" placeholder="last_name">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Email</label>
+            <input type="text" class="form-control" name="email" placeholder="email">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Comment</label>
+            <input type="text" class="form-control" name="comment" placeholder="comment">
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-info" onclick="myFunction()" style="background-color: darkcyan;"> Submit</button>
+    </div>
+</form>
+<script>
+    function myFunction(){
+        window.alert("Query Sent!");
+    }
+</script>
+</body>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Rental Service</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body style="background-color:aliceblue ;">
+  <h3 style="margin-left:45%; font-size: 30px; color: darkcyan">Car Rental Service</h3>
+  <div style="background-color:darkcyan">
+    <a href="http://localhost:3000/queries/list" style="font-size: 20px; color: black; margin-left: 5%;" >Customer Queries</a>
+    <a href="http://localhost:3000/carDetails" style="font-size: 20px; color: black; margin-left: 5%;">Car Price Evaluation</a>
+    <a href="http://localhost:3000/queries" style="font-size: 20px; color: black; margin-left: 5%;">Send Query</a>
+</div>   
+
+  <table class="table" style="margin-top: 2% ; margin-top:2%">
+<thead>
+  <tr style="background-color:rgb(124, 165, 165)">
+    <th scope="col">Sr. Number</th>
+    <th scope="col">First Name</th>
+    <th scope="col">Last Name</th>
+    <th scope="col">Email</th>
+    <th scope="col">Comment</th>
+    <th scope="col">View</th>
+ 
+  </tr>
+</thead>
+<tbody>
+  <% if(list.length){
+ 
+  for(var i = 0; i< list.length; i++) {%>  
+  <tr>
+    <th scope="row"><%= (i+1) %></th>
+    <td><%= list[i].first_name%></td>
+    <td><%= list[i].last_name%></td>
+    <td><%= list[i].email%></td>
+    <td><%= list[i].comment%></td>
+    <td><a href="/queries/view_Query/<%= list[i]._id %>">View</a></td>
+  </tr>
+  <% }
+           
+   }else{ %>
+       <tr>
+          <td colspan="3">No user</td>
+       </tr>
+    <% } %>    
+  
+</tbody>
+</table>
+</body>
+</html>
