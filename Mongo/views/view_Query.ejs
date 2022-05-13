@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Car Rental Service</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+<body>
+  <h3 style="margin-left:45%; font-size: 30px; color: darkcyan;">Car Rental Service</h3>
+    <div style="background-color:cadetblue;"">
+        <a href="http://localhost:3000/queries/list" style="font-size: 20px; color: black; margin-left: 5%;" >Customer Queries</a>
+        <a href="http://localhost:3000/carDetails" style="font-size: 20px; color: black; margin-left: 5%;">Car Price Evaluation</a>
+        <a href="http://localhost:3000/queries" style="font-size: 20px; color: black; margin-left: 5%;">Send Query</a>
+    </div>  
+  <form action="/queries/view_Query/<%= query._id %>" method="POST" style="margin-top:2%">
+    <table class="table">
+        <thead>
+          <tr style="background-color:rgb(124, 165, 165)">
+
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Comment</th>
+            <th scope="col">Response</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody> 
+          <tr>
+            <td scope="row"><%= query.first_name%></td>
+            <td scope="row"><%= query.last_name%></td>
+            <td scope="row"><%= query.email%></td>
+            <td scope="row"><%= query.comment%></td>
+            <td scope="row"><input type="text" name="response" placeholder="response"></td>
+            <td scope="row"><button type="submit" class="btn btn-info" style="background-color:rgb(124, 165, 165)" onclick="myFunction()"> Send </button></td>
+          </tr>
+        </tbody>
+       
+        </table>
+        </form>
+        <script>
+          function myFunction(){
+              window.alert("Response Sent!");
+          }
+      </script>
+</body>
+</html>

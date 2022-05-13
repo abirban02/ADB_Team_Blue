@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Rental Service</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body style="background-color:aliceblue ;">
+  <h3 style="margin-left:45%; font-size: 30px; color: darkcyan">Car Rental Service</h3>
+    <div style="background-color:darkcyan;">
+        <a href="http://localhost:3000/queries/list" style="font-size: 20px; color: black; margin-left: 5%;" >Customer Queries</a>
+        <a href="http://localhost:3000/carDetails" style="font-size: 20px; color: black; margin-left: 5%;">Car Price Evaluation</a>
+        <a href="http://localhost:3000/queries" style="font-size: 20px; color: black; margin-left: 5%;">Send Query</a>
+    </div>    
+  <form action="/carDetails/update" method="POST" style="margin-top: 2%">
+  <table class="table">
+<thead>
+  <tr style="background-color:rgb(124, 165, 165)">
+    <th scope="col">Sr. Number</th>
+          <th scope="col">Timestamp</th>
+          <th scope="col">Full Car Name</th>
+          <th scope="col">Base Price</th>
+          <th scope="col">ADAC Price</th>
+          <th scope="col">Tax</th>
+          <th></th>
+  </tr>
+</thead>
+<tbody>
+  <% if(view_Price.length){
+ 
+    for(let i = 0; i < view_Price.length; i++) {%>  
+    <tr>
+      <th scope="row"><%= (i+1) %></th> 
+      <td><%= view_Price[i]._id.getTimestamp() %></td>
+    <td><%= view_Price[i]['Full car name'] %></td>
+    <td><%= view_Price[i]['Base price'] %></td> 
+    <td><%= view_Price[i]['ADAC price'] %></td> 
+    <td><%= view_Price[i].Tax %></td>
+    <td><button type="submit" class="btn btn-info" style="background-color:rgb(124, 165, 165)"> Update </button></td>
+
+
+    
+                                                   
+  </tr> 
+  <% }
+           
+}else{ %>
+    <tr>
+       <td colspan="3">No user</td>
+    </tr>
+ <% } %>    
+  
+</tbody>
+</table>
+</form>
+</body>
+</html>
